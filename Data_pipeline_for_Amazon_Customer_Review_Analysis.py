@@ -93,10 +93,10 @@ def transform_data():
 
 bucket_name = "s3://stg-project-etl1/"
 destination_dir = "./sources/"
-host = "amz-reviews-db.cfo8ia4sia26.ap-south-1.rds.amazonaws.com"
+host = "host"
 port = 3306
-username = "admin"
-password = "7904545874"
+username = "username"
+password = "password"
 database = "reviews_db"
 
 cmd = "/usr/local/bin/aws s3 cp "+ bucket_name +" "+ destination_dir +" --recursive"
